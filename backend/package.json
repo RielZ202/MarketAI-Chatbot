@@ -1,0 +1,17 @@
+{
+  "name": "market-MarketAI-backend",
+  "version": "1.0.0",
+  "description": "Market MarketAI AI Chatbot Backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
